@@ -1,0 +1,35 @@
+# WordPress .gitignore (wp-content)
+
+# Pastas do Core a ignorar
+languages/
+upgrade/
+upgrade-temp-backup/
+
+# --- Temas ---
+# Ignorar todos os temas, exceto o pulso
+themes/*
+!themes/pulso/
+
+#Dentro do tema pulso, ignorar dependências de build
+themes/pulso/node_modules/
+themes/pulso/.sass-cache/
+
+# --- Arquivos de Sistema e IDE ---
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Temporários e Backups ---
+cache/
+temp/
+vendor/
+*.bak
+*.tmp
+*.swp
+*.sql
+
+# --- Outros ---
+.env

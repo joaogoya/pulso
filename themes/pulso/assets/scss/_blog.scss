@@ -1,0 +1,69 @@
+@use "variables" as *;
+
+.blog-brand-list {
+
+    .post-card-horizontal {
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px solid rgba(0,0,0,0.05);
+
+
+        .post-img-link {
+            display: block;
+            overflow: hidden;
+            height: 250px; // Altura fixa para manter o padrão no mobile
+            border: 5px solid var(--primary-red);
+            
+            @media (min-width: 768px) {
+                height: 300px;
+            }
+        }
+
+        .post-thumb {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .text-red {
+            color: $primary-red;
+            letter-spacing: 1px;
+        }
+
+        .entry-title {
+            font-family: $font-heading;
+            font-weight: 700;
+            line-height: 1.3;
+            
+            a:hover {
+                color: $primary-red !important;
+            }
+        }
+
+        .btn-read-more {
+            color: #000 !important;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            font-weight: 800;
+            text-decoration: none;
+            position: relative;
+            padding-bottom: 2px;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: $primary-red;
+                transition: width 0.3s ease;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+}

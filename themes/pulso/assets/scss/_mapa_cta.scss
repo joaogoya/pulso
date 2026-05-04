@@ -1,0 +1,286 @@
+// @use "variables" as *;
+
+// /* ==========================================================================
+//    SECTION AGENDAMENTO / MAPA & NAP - POA CAR SERVICE
+// ========================================================================== 
+// */
+
+// .section-agendamento-red {
+//   background: linear-gradient(
+//     135deg,
+//     $primary-red 0%,
+//     darken($primary-red, 15%) 100%
+//   );
+//   position: relative;
+//   padding: 80px 0;
+
+//   .text-dark-red-title {
+//     color: darken($primary-red, 25%);
+//   }
+
+//   .divider-white {
+//     width: 80px;
+//     height: 4px;
+//     background-color: #fff;
+//     margin: 15px auto;
+//   }
+
+//   /* Container do Mapa Estático / Certificado */
+//   .map-static-container {
+//     position: relative;
+//     background: rgba(222, 98, 98, 0.75); // Cor base do NAP
+//     backdrop-filter: blur(10px);
+//     border: 1px solid rgba(255, 255, 255, 0.15);
+//     overflow: hidden;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+
+//     .map-img-wrapper {
+//       width: 100%;
+//       display: flex;
+//       justify-content: center;
+//       margin-top: 1rem; // Afasta do topo da div
+
+//       .map-img {
+//         max-width: 100%; // Largura reduzida conforme pedido
+//         height: auto;
+//         border-radius: 4px;
+//         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+//         filter: contrast(1.05) grayscale(0.1);
+//         transition: transform 0.3s ease;
+//       }
+//     }
+
+//     /* Link de Rota abaixo da imagem */
+//     .map-link-container {
+//       margin-top: 1.5rem;
+//       text-align: center;
+//     }
+
+//     .btn-rota-maps {
+//       color: #fff;
+//       text-decoration: underline;
+//       font-weight: bold;
+//       text-transform: uppercase;
+//       letter-spacing: 1.5px;
+//       font-size: 1rem;
+//       transition: all 0.3s ease;
+//       display: inline-block;
+
+//       &:hover {
+//         color: #fff;
+//         text-decoration: none; // Tira o underline no hover
+//         transform: translateY(-2px);
+//         text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+//       }
+
+//       i {
+//         font-size: 2rem;
+//       }
+//     }
+//   }
+
+//   /* Card NAP Premium */
+//   .nap-card-premium {
+//     background: rgba(222, 98, 98, 0.75);
+//     backdrop-filter: blur(10px);
+//     border: 1px solid rgba(255, 255, 255, 0.15);
+//     border-left: 8px solid #fff;
+//     border-radius: 0px;
+
+//     @media (max-width: 991px) {
+//       border-left: 0;
+//       border-top: 8px solid #fff;
+//       padding: 2rem !important;
+//     }
+
+//     .link-endereco {
+//       transition: opacity 0.3s ease;
+//       cursor: pointer;
+
+//       &:hover {
+//         opacity: 0.7;
+//       }
+//     }
+//   }
+// }
+
+// /* Utilitários específicos da seção */
+// .text-white-80 {
+//   color: rgba(255, 255, 255, 0.8) !important;
+//   font-size: 0.95rem;
+//   line-height: 1.6;
+// }
+
+// .btn-whatsapp-section {
+//   background-color: #fff;
+//   color: $primary-red;
+//   font-family: $font-heading;
+//   font-size: 1.1rem;
+//   padding: 15px 30px;
+//   border: none;
+//   text-transform: uppercase;
+//   font-weight: 900;
+//   transition: all 0.3s ease;
+//   display: inline-block;
+//   text-align: center;
+//   letter-spacing: 1px;
+//   text-decoration: none;
+
+//   &:hover {
+//     background-color: $black-bg;
+//     color: #fff;
+//     transform: translateY(-5px);
+//   }
+// }
+
+
+
+
+
+@use "variables" as *;
+
+.section-agendamento-red {
+    background: linear-gradient(135deg, $primary-red 0%, darken($primary-red, 15%) 100%);
+    padding: 80px 0;
+
+    .text-dark-red-title { color: darken($primary-red, 25%); }
+    .divider-white { width: 80px; height: 4px; background-color: #fff; margin: 15px auto; }
+
+    .map-static-container {
+        background: rgba(222, 98, 98, 0.75);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        padding: 2rem;
+
+        .map-img-wrapper {
+            width: 100%;
+            height: 400px; // Altura fixa para o container do mapa
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            border-radius: 4px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+            .map-placeholder {
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                position: relative;
+
+                .map-img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    filter: grayscale(1) contrast(1.2) brightness(0.8); // Imagem Escura P&B
+                    transition: all 0.5s ease;
+                }
+
+                &:hover .map-img {
+                    filter: grayscale(0.5) brightness(1);
+                }
+            }
+
+            /* Botão de interagir sobre a imagem */
+            .btn-interagir-mapa {
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: rgba(0,0,0,0.6);
+                color: #fff;
+                padding: 2px 8px;
+                font-weight: bold;
+                pointer-events: none; // Clique passa para a div pai
+                white-space: nowrap;
+                font-size: 12px;
+            }
+        }
+
+        /* Truque para esconder o box do Google */
+        .iframe-trimmer {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+
+            iframe {
+                position: absolute;
+                top: -150px; // Sobe o iframe para esconder o cabeçalho
+                left: 0;
+                height: calc(100% + 150px); // Compensa a altura
+                filter: grayscale(0.2);
+            }
+        }
+
+        .map-link-container { margin-top: 1.5rem; }
+
+        .btn-rota-maps {
+            color: #fff;
+            text-decoration: underline;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            &:hover { text-decoration: none; transform: translateY(-2px); }
+            i{
+                font-size: 2em;
+            }
+        }
+    }
+
+    .nap-card-premium {
+        background: rgba(222, 98, 98, 0.75);
+        backdrop-filter: blur(10px);
+        border-left: 8px solid #fff;
+        @media (max-width: 991px) { border-left: 0; border-top: 8px solid #fff; }
+    }
+}
+
+.text-white-80 { color: rgba(255,255,255,0.8) !important; font-size: 0.95rem; }
+
+.btn-whatsapp-section {
+    background-color: #fff;
+    color: $primary-red;
+    padding: 15px 30px;
+    font-weight: 900;
+    text-decoration: none;
+    &:hover { background-color: #000; color: #fff; transform: translateY(-5px); }
+}
+
+
+/* Spinner de Carregamento */
+.map-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+
+    .spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        border-top-color: #fff;
+        animation: spin 1s ease-in-out infinite;
+        margin-bottom: 10px;
+    }
+
+    span {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
