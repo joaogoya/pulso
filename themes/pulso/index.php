@@ -14,7 +14,7 @@
         <div class="row g-4">
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="col-12">
-                <article class="post-card-horizontal">
+                <article class="post-card-horizontal">  
                     <div class="row g-0 align-items-center">
 
                         <div class="col-md-4">
