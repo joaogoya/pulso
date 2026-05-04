@@ -1,9 +1,7 @@
 # WordPress .gitignore (wp-content)
 
 # Pastas do Core a ignorar
-languages/
-upgrade/
-upgrade-temp-backup/
+
 
 # --- Temas ---
 # Ignorar todos os temas, exceto o pulso
