@@ -24,7 +24,7 @@
                                 data-analytics="link-post-na-listagem-de-posts"
                                 aria-label="Visite o post clicando na imagem"
                             >
-                                <?php if ( has_post_thumbnail() ) : ?>
+                                <?php if ( has_post_thumbnail() ) : ?>   
                                        <?php echo pipe_get_img(get_the_ID(), true, 'medium', 'img-fluid post-thumb'); ?>
                                 <?php else : ?>
                                 <img src="path/to/placeholder.jpg" class="img-fluid post-thumb" alt="POA Car Service">
