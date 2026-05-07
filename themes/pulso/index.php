@@ -8,13 +8,13 @@
             <h2 class="display-4 fw-bold text-dark title-impact">
                 DICAS DO <span class="text-red">ESPECIALISTA </span>
             </h2>
-        </div>
+        </div>24swetfvyn 
         <hr><br>
 
         <div class="row g-4">
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="col-12">
-                <article class="post-card-horizontal">    
+                <article class="post-card-horizontal">
                     <div class="row g-0 align-items-center">
 
                         <div class="col-md-4">
@@ -24,7 +24,7 @@
                                 data-analytics="link-post-na-listagem-de-posts"
                                 aria-label="Visite o post clicando na imagem"
                             >
-                                <?php if ( has_post_thumbnail() ) : ?>   
+                                <?php if ( has_post_thumbnail() ) : ?>
                                        <?php echo pipe_get_img(get_the_ID(), true, 'medium', 'img-fluid post-thumb'); ?>
                                 <?php else : ?>
                                 <img src="path/to/placeholder.jpg" class="img-fluid post-thumb" alt="POA Car Service">

@@ -196,3 +196,10 @@
 0032.833 (0) The backup succeeded and is now complete
 0032.866 (0) No email will/can be sent - the user has not configured an email address.
 0032.909 (0) O backup foi bem-sucedido e agora está concluído
+0000.000 (1) Opened log file at time: Mon, 04 May 2026 20:44:04 +0000 on http://localhost/pulso-comercial
+0000.045 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.3 WP: 6.9.4 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-1DI5SHA 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: pt_BR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 37.7M | 40M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.095 (1) Free space on disk containing Updraft's temporary directory: 764347.2 MB
+0000.144 (1) Requesting backup semaphore lock (udp_backupjob_077ab4773934)
+0000.254 (1) [Debug] Lock option (updraft_lock_udp_backupjob_077ab4773934, pls_options) was created in the database
+0000.692 (1) [Info] Lock (updraft_lock_udp_backupjob_077ab4773934, pls_options) acquired after initialising the database
+0000.725 (1) This backup task (077ab4773934) is either complete or began over 2 days ago: ending (1777927444.8319, ) (existing jobdata keys: )

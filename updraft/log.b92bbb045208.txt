@@ -1,0 +1,118 @@
+0000.557 () Opened log file at time: Mon, 04 May 2026 20:43:06 +0000 on http://localhost/pulso-comercial
+0000.560 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.3 WP: 6.9.4 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-1DI5SHA 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: pt_BR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 52.5M | 54M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.561 () Free space on disk containing Updraft's temporary directory: 764406.1 MB
+0000.765 () Restore setup, now closing connection and starting restore over AJAX.
+0000.075 () Opened log file at time: Mon, 04 May 2026 20:43:09 +0000 on http://localhost/pulso-comercial
+0000.077 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.3 WP: 6.9.4 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-1DI5SHA 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: pt_BR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 49.7M | 52M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.078 () Free space on disk containing Updraft's temporary directory: 764406.1 MB
+0000.136 () Ensuring WP_Filesystem is setup for a restore
+0000.139 () WP_Filesystem is setup and ready for a restore
+0000.202 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["pls_options","pls_users","pls_usermeta","pls_commentmeta","pls_comments","pls_links","pls_postmeta","pls_posts","pls_term_relationships","pls_term_taxonomy","pls_termmeta","pls_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.236 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.317 () Entity: db
+0000.317 () restore_backup(backup_file=backup_2026-05-02-1659_pulso_comercial_077ab4773934-db.gz, type=db, info=a:0:{}, last_one=)
+0000.317 () Extraindo o backup... (backup_2026-05-02-1659_pulso_comercial_077ab4773934-db.gz, 0.2 Mb)
+0000.321 () Database successfully unpacked
+0000.322 () Restaurando o banco de dados (em um site grande, isso pode levar muito tempo. Se houver um tempo limite (o que pode acontecer se sua empresa de hospedagem tiver configurado para limitar recursos, você precisa usar um método diferente, como o phpMyAdmin)...
+0000.322 () Using direct MySQL access; value of use_mysqli is: 1
+0000.323 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0001.480 () Max packet size: 32 MB
+0001.480 () Entering maintenance mode
+0001.480 () Ativando modo de manutenção&#8230;
+0002.158 () Backup of: http://localhost/pulso-comercial
+0002.165 () Content URL: http://localhost/pulso-comercial/wp-content
+0002.166 () Uploads URL: http://localhost/pulso-comercial/wp-content/uploads
+0002.168 () Old table prefix: pls_
+0002.169 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0002.171 () Site information: multisite=0
+0002.171 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0002.175 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0002.176 () New table prefix: rk_
+0002.220 () Processing table (InnoDB): pls_options - will restore as: rk_options
+0005.014 () Atomic restore: dropping original table (pls_options)
+0005.186 () Atomic restore: renaming new table (rk_options) to final table name (pls_options)
+0005.341 () Restoring prior UD configuration (table: pls_options; keys: 4)
+0005.630 () Processing table (InnoDB): pls_users - will restore as: rk_users
+0006.091 () Atomic restore: dropping original table (pls_users)
+0006.232 () Atomic restore: renaming new table (rk_users) to final table name (pls_users)
+0006.461 () Processing table (InnoDB): pls_usermeta - will restore as: rk_usermeta
+0006.805 () Atomic restore: dropping original table (pls_usermeta)
+0007.067 () Atomic restore: renaming new table (rk_usermeta) to final table name (pls_usermeta)
+0007.233 () Processing table (InnoDB): pls_commentmeta - will restore as: rk_commentmeta
+0007.642 () Atomic restore: dropping original table (pls_commentmeta)
+0007.895 () Atomic restore: renaming new table (rk_commentmeta) to final table name (pls_commentmeta)
+0008.322 () Processing table (InnoDB): pls_comments - will restore as: rk_comments
+0008.917 () Atomic restore: dropping original table (pls_comments)
+0009.135 () Atomic restore: renaming new table (rk_comments) to final table name (pls_comments)
+0009.368 () Processing table (InnoDB): pls_links - will restore as: rk_links
+0009.623 () Atomic restore: dropping original table (pls_links)
+0009.773 () Atomic restore: renaming new table (rk_links) to final table name (pls_links)
+0009.953 () Processing table (InnoDB): pls_postmeta - will restore as: rk_postmeta
+0010.336 () Atomic restore: dropping original table (pls_postmeta)
+0010.973 () Atomic restore: renaming new table (rk_postmeta) to final table name (pls_postmeta)
+0011.199 () Processing table (InnoDB): pls_posts - will restore as: rk_posts
+0011.599 () Atomic restore: dropping original table (pls_posts)
+0011.774 () Atomic restore: renaming new table (rk_posts) to final table name (pls_posts)
+0012.633 () Processing table (InnoDB): pls_term_relationships - will restore as: rk_term_relationships
+0013.029 () Atomic restore: dropping original table (pls_term_relationships)
+0013.257 () Atomic restore: renaming new table (rk_term_relationships) to final table name (pls_term_relationships)
+0013.448 () Processing table (InnoDB): pls_term_taxonomy - will restore as: rk_term_taxonomy
+0013.723 () Atomic restore: dropping original table (pls_term_taxonomy)
+0013.941 () Atomic restore: renaming new table (rk_term_taxonomy) to final table name (pls_term_taxonomy)
+0014.085 () Processing table (InnoDB): pls_termmeta - will restore as: rk_termmeta
+0014.397 () Atomic restore: dropping original table (pls_termmeta)
+0014.688 () Atomic restore: renaming new table (rk_termmeta) to final table name (pls_termmeta)
+0014.919 () Processing table (InnoDB): pls_terms - will restore as: rk_terms
+0015.303 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0015.360 () Unlocking database and leaving maintenance mode
+0015.360 () Desativando modo de manutenção&#8230;
+0015.361 () Atomic restore: dropping original table (pls_terms)
+0016.372 () Atomic restore: renaming new table (rk_terms) to final table name (pls_terms)
+0016.587 () Finished: lines processed: 44 in 16.26 seconds
+0016.591 () Limpando arquivos desnecessários...
+0016.595 () Begin search and replace (updraftplus_restored_db)
+0016.595 () [Database-replace-site-url] Banco de dados: pesquisar e substituir o URL do site
+0016.596 () This option was not selected.
+0016.701 () Entity: plugins
+0016.701 () restore_backup(backup_file=backup_2026-05-02-1659_pulso_comercial_077ab4773934-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:50:"D:\xampp\htdocs\pulso-comercial/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0016.704 () Extraindo o backup... (backup_2026-05-02-1659_pulso_comercial_077ab4773934-plugins.zip, 7.8 MB)
+0016.754 () Unzipping backup_2026-05-02-1659_pulso_comercial_077ab4773934-plugins.zip to D:/xampp/htdocs/pulso-comercial/wp-content/upgrade/bb21b651/ using UpdraftPlus_PclZip, starting index 0
+0018.621 () Unzip progress: 1002 out of 1583 files (23.1 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cookie/CookiePlugin.php)
+0019.539 () Unzip progress: 1583 out of 1583 files (26.7 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-theme/theme.scss)
+0019.545 () Moving old data: filesystem method / updraft_dir is potentially possible
+0019.547 () Moving old data: can potentially use wp_filesystem method / -old
+0019.547 () Movendo os dados antigos para outro local...
+0022.966 () Top-level entities being moved: akismet, hello.php, index.php, pexlechris-adminer, updraftplus, wp-migrate-db
+0023.113 () Movendo o backup extraído para o local...
+0023.444 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0023.485 () Limpando arquivos desnecessários...
+0023.891 () Entity: themes
+0023.891 () restore_backup(backup_file=backup_2026-05-02-1659_pulso_comercial_077ab4773934-themes.zip, type=themes, info=a:3:{s:4:"path";s:49:"D:\xampp\htdocs\pulso-comercial/wp-content/themes";s:11:"description";s:5:"Temas";s:20:"singular_description";s:4:"Tema";}, last_one=)
+0023.894 () Extraindo o backup... (backup_2026-05-02-1659_pulso_comercial_077ab4773934-themes.zip, 18.3 MB)
+0023.897 () Unzipping backup_2026-05-02-1659_pulso_comercial_077ab4773934-themes.zip to D:/xampp/htdocs/pulso-comercial/wp-content/upgrade/68190c5d/ using UpdraftPlus_PclZip, starting index 0
+0028.382 () Unzip progress: 593 out of 593 files (20.1 MB, themes/twentytwentytwo/templates/single.html)
+0028.383 () Moving old data: filesystem method / updraft_dir is potentially possible
+0028.384 () Moving old data: can potentially use wp_filesystem method / -old
+0028.384 () Movendo os dados antigos para outro local...
+0030.543 () Top-level entities being moved: index.php, pulso
+0030.546 () [Updraftplus] There was an error when performing the move operation by renaming or copying D:\xampp\htdocs\pulso-comercial/wp-content/themes/pulso to D:\xampp\htdocs\pulso-comercial/wp-content/updraft/themes-old/pulso: will attempt a recursive copy instead.
+0050.240 () Movendo o backup extraído para o local...
+0050.388 () Top-level entities being moved: index.php, twentytwentyfive, twentytwentyfour, twentytwentythree, twentytwentytwo
+0050.403 () Limpando arquivos desnecessários...
+0050.776 () Entity: uploads
+0050.776 () restore_backup(backup_file=backup_2026-05-02-1659_pulso_comercial_077ab4773934-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:50:"D:\xampp\htdocs\pulso-comercial/wp-content/uploads";s:11:"description";s:6:"Envios";}, last_one=)
+0050.808 () Extraindo o backup... (backup_2026-05-02-1659_pulso_comercial_077ab4773934-uploads.zip, 0 MB)
+0050.810 () Unzipping backup_2026-05-02-1659_pulso_comercial_077ab4773934-uploads.zip to D:/xampp/htdocs/pulso-comercial/wp-content/upgrade/ed13a00c/ using UpdraftPlus_PclZip, starting index 0
+0050.814 () Moving old data: filesystem method / updraft_dir is potentially possible
+0050.816 () Moving old data: can potentially use wp_filesystem method / -old
+0050.816 () Movendo os dados antigos para outro local...
+0050.822 () Movendo o backup extraído para o local...
+0050.827 () Limpando arquivos desnecessários...
+0051.817 () Entity: others
+0051.817 () restore_backup(backup_file=backup_2026-05-02-1659_pulso_comercial_077ab4773934-others.zip, type=others, info=a:2:{s:4:"path";s:42:"D:\xampp\htdocs\pulso-comercial/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0051.818 () Extraindo o backup... (backup_2026-05-02-1659_pulso_comercial_077ab4773934-others.zip, 1.5 MB)
+0051.820 () Unzipping backup_2026-05-02-1659_pulso_comercial_077ab4773934-others.zip to D:/xampp/htdocs/pulso-comercial/wp-content/upgrade/30279a09/ using UpdraftPlus_PclZip, starting index 0
+0052.356 () Unzip progress: 96 out of 96 files (5.1 MB, languages/themes/twentytwentytwo-pt_BR.po)
+0052.366 () Limpando arquivos desnecessários...
+0052.663 () Restore successful!
+0052.664 () Restore successful

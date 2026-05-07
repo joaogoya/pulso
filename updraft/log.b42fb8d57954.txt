@@ -1,0 +1,323 @@
+0000.000 (0) Opened log file at time: Tue, 05 May 2026 10:28:06 +0000 on http://localhost/pulso-comercial
+0000.034 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.3 WP: 6.9.4 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-1DI5SHA 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: pt_BR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 50.6M | 52M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.114 (0) Free space on disk containing Updraft's temporary directory: 764338.8 MB
+0000.195 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.289 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.333 (0) Semaphore (fd, pls_options) was stuck, set lock time to 2026-05-05 10:28:06
+0000.368 (0) Semaphore (fd, pls_options) reset to 1
+0000.415 (0) Set semaphore last lock (fd) time to 2026-05-05 10:28:06
+0000.465 (0) Semaphore lock (fd) complete
+0000.586 (0) Backup run: resumption=0, nonce=b42fb8d57954, file_nonce=b42fb8d57954 begun at=1777976886 (0s ago), job type=backup
+0000.619 (0) Scheduling a resumption (1) after 300 seconds (1777977186) in case this run gets aborted
+0000.714 (0) Checking if we have a zip executable available
+0000.784 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.814 (0) Creation of backups of directories: beginning
+0000.935 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.109 (0) Total entities for the zip file: 354 directories, 1761 files (0 skipped as non-modified), 31.9 MB
+0003.146 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 32670.5 KB, split: 409600 KB)
+0003.250 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.326 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.413 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.491 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.580 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.639 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.705 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0003.783 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0003.848 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0003.936 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0004.016 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0004.124 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0004.233 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0004.302 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0004.399 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0004.453 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0004.520 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0023.494 (0) Creating zip file manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.list-temp.tmp)
+0023.535 (0) Successfully created zip file manifest (size: 151270)
+0023.905 (0) Created plugins zip (0) - 9870.8 KB in 22.9 s (431 KB/s) (sha1: 07024449baf4d60feb36ec4d94709058b6d6bbec, sha256: 8213f8f241f6a8747571157a1776142902c7c1dcb3ac56d671438b480c7409ed)
+0024.006 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0024.093 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-78d2b7626c26fcadb8a98e09edb73784)
+0026.206 (0) Google Drive: quota usage: used=29.7 MB, total=15360 MB, available=15330.3 MB
+0026.260 (0) Google Drive: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip: Attempting to upload to Google Drive (into folder id: 11hK1i_n7PEJ8TQCwFK4PSuWYlE2Z5oIB)
+0028.513 (0) Googledrive chunked upload: 10.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 53.8 / 58)
+0030.098 (0) Googledrive chunked upload: 31.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 53.8 / 58)
+0032.166 (0) Googledrive chunked upload: 72.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 53.8 / 58)
+0034.782 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0034.914 (0) Google Drive: OK: Archive backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip uploaded in 8.61 seconds
+0034.947 (0) Recording as successfully uploaded: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip
+0035.047 (0) Deleting local file: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip: OK
+0035.211 (0) Beginning creation of dump of themes (split every: 400 MB)
+0035.954 (0) Total entities for the zip file: 62 directories, 532 files (0 skipped as non-modified), 20.1 MB
+0036.003 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 20540.8 KB, split: 409600 KB)
+0036.076 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0036.132 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0036.184 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0036.239 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0036.298 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0041.599 (0) Creating zip file manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip.list-temp.tmp)
+0041.651 (0) Successfully created zip file manifest (size: 38159)
+0042.478 (0) Created themes zip (0) - 18722.7 KB in 7.1 s (2627.9 KB/s) (sha1: c99c218ae7a011fbe8630020f3554176a2a51df7, sha256: cb6b3933bc4ba63dfe5828416ce24c3e127c68dffcb300ab5fb7abe5ed84c6bc)
+0042.567 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0042.600 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-78d2b7626c26fcadb8a98e09edb73784)
+0043.262 (0) Google Drive: quota usage: used=39.4 MB, total=15360 MB, available=15320.6 MB
+0043.328 (0) Google Drive: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip: Attempting to upload to Google Drive (into folder id: 11hK1i_n7PEJ8TQCwFK4PSuWYlE2Z5oIB)
+0046.173 (0) Googledrive chunked upload: 5.5 % uploaded (1048576)
+0047.437 (0) Googledrive chunked upload: 10.9 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 53.7 / 60)
+0049.055 (0) Googledrive chunked upload: 21.9 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 53.7 / 60)
+0051.297 (0) Googledrive chunked upload: 43.8 % uploaded (8388608 - increasing chunk size to 8192 KB - memory usage: 53.7 / 60)
+0055.937 (0) Googledrive chunked upload: 87.5 % uploaded (16777216)
+0058.939 (0) Googledrive chunked upload: 100 % uploaded (16777216)
+0059.086 (0) Google Drive: OK: Archive backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip uploaded in 15.72 seconds
+0059.126 (0) Recording as successfully uploaded: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip
+0059.183 (0) Deleting local file: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip: OK
+0059.315 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0059.379 (0) Looking for candidates to backup in: D:\xampp\htdocs\pulso-comercial/wp-content/uploads
+0059.435 (0) finding files: 2026: adding to list (1)
+0059.507 (0) finding files: wp-migrate-db: adding to list (2)
+0059.544 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0059.677 (0) Total entities for the zip file: 3 directories, 2 files (0 skipped as non-modified), 0 MB
+0059.720 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 0.1 KB, split: 409600 KB)
+0059.846 (0) Creating zip file manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-uploads.zip.list-temp.tmp)
+0059.887 (0) Successfully created zip file manifest (size: 108)
+0060.148 (0) Created uploads zip (0) - 0.7 KB in 0.5 s (1.4 KB/s) (sha1: c0796170faca13883fcd33f888b22c1068c41acd, sha256: 5acd4a53b7c84a7c50a3d1238a9bd7eee42d0cb158780ebc019fed146bf6e37c)
+0060.280 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0060.314 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-78d2b7626c26fcadb8a98e09edb73784)
+0061.051 (0) Google Drive: quota usage: used=57.6 MB, total=15360 MB, available=15302.4 MB
+0061.094 (0) Google Drive: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-uploads.zip: Attempting to upload to Google Drive (into folder id: 11hK1i_n7PEJ8TQCwFK4PSuWYlE2Z5oIB)
+0064.317 (0) Googledrive chunked upload: 100 % uploaded
+0064.404 (0) Google Drive: OK: Archive backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-uploads.zip uploaded in 3.25 seconds
+0064.448 (0) Recording as successfully uploaded: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-uploads.zip
+0064.559 (0) Deleting local file: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-uploads.zip: OK
+0064.712 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0064.839 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0064.911 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 4.2 KB, split: 409600 KB)
+0065.043 (0) Creating zip file manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-mu-plugins.zip.list-temp.tmp)
+0065.076 (0) Successfully created zip file manifest (size: 162)
+0065.252 (0) Created mu-plugins zip (0) - 2.1 KB in 0.4 s (4.7 KB/s) (sha1: aea485f6cd22a9ad5e316e36222a57252c321ba9, sha256: 98b349c639ccc0b043b2e8b32e3632db6ffd56515c624b4b2a9eb8d13c129039)
+0065.427 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0065.471 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-78d2b7626c26fcadb8a98e09edb73784)
+0066.113 (0) Google Drive: quota usage: used=57.6 MB, total=15360 MB, available=15302.4 MB
+0066.175 (0) Google Drive: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 11hK1i_n7PEJ8TQCwFK4PSuWYlE2Z5oIB)
+0068.704 (0) Googledrive chunked upload: 100 % uploaded
+0068.826 (0) Google Drive: OK: Archive backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-mu-plugins.zip uploaded in 2.61 seconds
+0068.869 (0) Recording as successfully uploaded: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-mu-plugins.zip
+0069.031 (0) Deleting local file: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-mu-plugins.zip: OK
+0069.188 (0) Beginning backup of other directories found in the content directory (index: 0)
+0069.234 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0069.276 (0) Looking for candidates to backup in: D:\xampp\htdocs\pulso-comercial/wp-content
+0069.332 (0) finding files: .git: adding to list (1)
+0069.387 (0) finding files: .github: adding to list (2)
+0069.440 (0) finding files: .gitignore: adding to list (3)
+0069.486 (0) finding files: index.php: adding to list (4)
+0069.617 (0) finding files: index.php-old: adding to list (5)
+0069.661 (0) finding files: languages: adding to list (6)
+0069.716 (0) finding files: languages-old: adding to list (7)
+0069.760 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0069.815 (0) finding files: plugins: skipping: this is the plugins directory
+0069.870 (0) finding files: plugins-old: adding to list (8)
+0069.924 (0) finding files: themes: skipping: this is the themes directory
+0069.967 (0) finding files: themes-old: adding to list (9)
+0070.001 (0) finding files: updraft: skipping: this is the updraft directory
+0070.085 (0) finding files: upgrade: skipping: excluded by options
+0070.133 (0) finding files: upgrade-temp-backup: adding to list (10)
+0070.188 (0) finding files: upgrade-temp-backup-old: adding to list (11)
+0070.254 (0) finding files: uploads: skipping: this is the uploads directory
+0070.299 (0) finding files: uploads-old: adding to list (12)
+0073.156 (0) Total entities for the zip file: 282 directories, 1458 files (0 skipped as non-modified), 148 MB
+0073.234 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 151565.4 KB, split: 409600 KB)
+0073.317 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0073.388 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0073.454 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0073.510 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0073.585 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0073.652 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0073.718 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0073.783 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0073.863 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 900 files added (on-disk size: 0 KB)
+0073.949 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0074.123 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0074.200 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0074.331 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0074.435 (0) Zip: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0306.709 (0) The time we have been running (305.6) is approaching the resumption interval (300) - increasing resumption interval to 336
+0307.278 (0) Creating zip file manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.list-temp.tmp)
+0307.337 (0) Successfully created zip file manifest (size: 95386)
+0311.952 (0) Created others zip (0) - 144256.4 KB in 241.5 s (597.3 KB/s) (sha1: e1bb5c2bbfe22e771859313cb788097352c21a94, sha256: 456b8666b522d654dcb845cdcbd85711394c678e42baa92faba66a5354b7ee6a)
+0312.053 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0312.109 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-78d2b7626c26fcadb8a98e09edb73784)
+0312.858 (0) Google Drive: quota usage: used=57.6 MB, total=15360 MB, available=15302.4 MB
+0313.406 (0) Google Drive: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip: Attempting to upload to Google Drive (into folder id: 11hK1i_n7PEJ8TQCwFK4PSuWYlE2Z5oIB)
+0316.155 (0) The time we have been running (316) is approaching the resumption interval (336) - increasing resumption interval to 346
+0316.264 (0) Googledrive chunked upload: 0.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 53.8 / 60)
+0318.354 (0) The time we have been running (317.9) is approaching the resumption interval (346) - increasing resumption interval to 348
+0318.461 (0) Googledrive chunked upload: 2.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 53.8 / 60)
+0321.945 (0) The time we have been running (320.5) is approaching the resumption interval (348) - increasing resumption interval to 351
+0322.469 (0) Googledrive chunked upload: 5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 53.8 / 60)
+0326.260 (0) The time we have been running (326) is approaching the resumption interval (351) - increasing resumption interval to 357
+0326.337 (0) Googledrive chunked upload: 10.6 % uploaded (15728640)
+0329.932 (0) The time we have been running (329.7) is approaching the resumption interval (357) - increasing resumption interval to 360
+0330.021 (0) Googledrive chunked upload: 16.3 % uploaded (24117248)
+0333.981 (0) The time we have been running (333.9) is approaching the resumption interval (360) - increasing resumption interval to 364
+0334.075 (0) Googledrive chunked upload: 22 % uploaded (32505856)
+0338.423 (0) The time we have been running (338.3) is approaching the resumption interval (364) - increasing resumption interval to 369
+0338.489 (0) Googledrive chunked upload: 27.7 % uploaded (40894464)
+0342.068 (0) The time we have been running (341.4) is approaching the resumption interval (369) - increasing resumption interval to 372
+0342.149 (0) Googledrive chunked upload: 33.4 % uploaded (49283072)
+0346.711 (0) The time we have been running (345) is approaching the resumption interval (372) - increasing resumption interval to 375
+0346.802 (0) Googledrive chunked upload: 39 % uploaded (57671680)
+0352.630 (0) The time we have been running (351.2) is approaching the resumption interval (375) - increasing resumption interval to 382
+0352.914 (0) Googledrive chunked upload: 44.7 % uploaded (66060288)
+0358.259 (0) The time we have been running (356.6) is approaching the resumption interval (382) - increasing resumption interval to 387
+0358.605 (0) Googledrive chunked upload: 50.4 % uploaded (74448896)
+0362.278 (0) The time we have been running (362.1) is approaching the resumption interval (387) - increasing resumption interval to 393
+0362.371 (0) Googledrive chunked upload: 56.1 % uploaded (82837504)
+0366.730 (0) The time we have been running (366.5) is approaching the resumption interval (393) - increasing resumption interval to 397
+0366.791 (0) Googledrive chunked upload: 61.8 % uploaded (91226112)
+0369.743 (0) The time we have been running (369.6) is approaching the resumption interval (397) - increasing resumption interval to 400
+0369.820 (0) Googledrive chunked upload: 67.4 % uploaded (99614720)
+0373.625 (0) The time we have been running (373.5) is approaching the resumption interval (400) - increasing resumption interval to 404
+0373.701 (0) Googledrive chunked upload: 73.1 % uploaded (108003328)
+0378.088 (0) The time we have been running (378) is approaching the resumption interval (404) - increasing resumption interval to 409
+0378.154 (0) Googledrive chunked upload: 78.8 % uploaded (116391936)
+0382.387 (0) The time we have been running (382.2) is approaching the resumption interval (409) - increasing resumption interval to 413
+0382.465 (0) Googledrive chunked upload: 84.5 % uploaded (124780544)
+0386.324 (0) The time we have been running (386.2) is approaching the resumption interval (413) - increasing resumption interval to 417
+0386.411 (0) Googledrive chunked upload: 90.2 % uploaded (133169152)
+0390.162 (0) The time we have been running (390.1) is approaching the resumption interval (417) - increasing resumption interval to 421
+0390.228 (0) Googledrive chunked upload: 95.8 % uploaded (141557760)
+0393.999 (0) The time we have been running (393.9) is approaching the resumption interval (421) - increasing resumption interval to 424
+0394.073 (0) Googledrive chunked upload: 100 % uploaded (141557760)
+0394.164 (0) Google Drive: OK: Archive backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip uploaded in 80.65 seconds
+0394.206 (0) Recording as successfully uploaded: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip
+0394.283 (0) Deleting local file: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip: OK
+0394.381 (0) Saving backup status to database (elements: 10)
+0394.439 (0) Beginning creation of database dump (WordPress DB)
+0394.471 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0394.572 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0395.162 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `pls_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */; (truncated - 1228 bytes total)
+0395.250 (0) Binary mysqldump: error (code: 2)
+0395.574 (0) Table pls_options: Total expected rows (via COUNT): 231
+0395.616 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0395.777 (0) Table pls_options: Rows added in this batch (next record: 332): 226 (uncompressed bytes in this segment=1289727) in 0.38 seconds
+0396.275 (0) The time we have been running (395.9) is approaching the resumption interval (424) - increasing resumption interval to 426
+0396.418 (0) The time we have been running (396.4) is approaching the resumption interval (426) - increasing resumption interval to 427
+0396.496 (0) Table pls_options: finishing file(s) (2, 255.8 KB)
+0396.652 (0) Table pls_users: Total expected rows (via COUNT): 1
+0396.697 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0396.817 (0) Table pls_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1201) in 0.21 seconds
+0396.938 (0) Table pls_users: finishing file(s) (2, 0.6 KB)
+0397.484 (0) Table pls_usermeta: Total expected rows (via COUNT): 18
+0397.518 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0397.563 (0) Table pls_usermeta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1902) in 0.48 seconds
+0397.770 (0) The time we have been running (397.6) is approaching the resumption interval (427) - increasing resumption interval to 428
+0397.894 (0) Table pls_usermeta: finishing file(s) (2, 1 KB)
+0398.091 (0) Table pls_commentmeta: Total expected rows (via COUNT): 0
+0398.166 (0) Table pls_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=640) in 0.17 seconds
+0398.386 (0) The time we have been running (398.2) is approaching the resumption interval (428) - increasing resumption interval to 429
+0398.812 (0) Table pls_commentmeta: finishing file(s) (2, 0.4 KB)
+0398.946 (0) Table pls_comments: Total expected rows (via COUNT): 1
+0399.102 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0399.206 (0) Table pls_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1895) in 0.27 seconds
+0399.420 (0) The time we have been running (399.2) is approaching the resumption interval (429) - increasing resumption interval to 430
+0399.620 (0) Table pls_comments: finishing file(s) (2, 0.7 KB)
+0399.723 (0) Table pls_links: Total expected rows (via COUNT): 0
+0399.911 (0) Table pls_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1033) in 0.22 seconds
+0400.003 (0) Table pls_links: finishing file(s) (2, 0.5 KB)
+0400.211 (0) Table pls_postmeta: Total expected rows (via COUNT): 3
+0400.244 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.323 (0) Table pls_postmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=785) in 0.24 seconds
+0400.519 (0) The time we have been running (400.4) is approaching the resumption interval (430) - increasing resumption interval to 431
+0400.751 (0) Table pls_postmeta: finishing file(s) (2, 0.5 KB)
+0400.992 (0) Table pls_posts: Total expected rows (via COUNT): 8
+0401.014 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0401.049 (0) Table pls_posts: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=11506) in 0.22 seconds
+0401.333 (0) The time we have been running (401.2) is approaching the resumption interval (431) - increasing resumption interval to 432
+0401.466 (0) Table pls_posts: finishing file(s) (2, 3.5 KB)
+0401.566 (0) Table pls_term_relationships: Total expected rows (approximate): 3
+0401.758 (0) Table pls_term_relationships: Rows added in this batch (next record: 100000): 3 (uncompressed bytes in this segment=727) in 0.20 seconds
+0401.994 (0) Table pls_term_relationships: finishing file(s) (2, 0.4 KB)
+0402.185 (0) Table pls_term_taxonomy: Total expected rows (via COUNT): 2
+0402.235 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.368 (0) Table pls_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=896) in 0.27 seconds
+0402.544 (0) The time we have been running (402.4) is approaching the resumption interval (432) - increasing resumption interval to 433
+0402.667 (0) Table pls_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0403.083 (0) Table pls_termmeta: Total expected rows (via COUNT): 0
+0403.226 (0) Table pls_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=613) in 0.49 seconds
+0403.446 (0) The time we have been running (403.3) is approaching the resumption interval (433) - increasing resumption interval to 434
+0403.556 (0) Table pls_termmeta: finishing file(s) (2, 0.4 KB)
+0403.670 (0) Table pls_terms: Total expected rows (via COUNT): 2
+0403.727 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0403.810 (0) Table pls_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=728) in 0.18 seconds
+0403.932 (0) Table pls_terms: finishing file(s) (2, 0.4 KB)
+0403.966 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_options.table.tmpr333.gz (1/12/fopen): adding to final database dump
+0404.036 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_options.table.gz (2/12/fopen): adding to final database dump
+0404.084 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0404.182 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_users.table.gz (4/12/fopen): adding to final database dump
+0404.217 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_usermeta.table.tmpr19.gz (5/12/fopen): adding to final database dump
+0404.258 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_usermeta.table.gz (6/12/fopen): adding to final database dump
+0404.271 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0404.294 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0404.334 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0404.360 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_comments.table.gz (10/12/fopen): adding to final database dump
+0404.393 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0404.460 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_links.table.gz (12/12/fopen): adding to final database dump
+0404.514 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_postmeta.table.tmpr4.gz (13/12/fopen): adding to final database dump
+0404.555 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_postmeta.table.gz (14/12/fopen): adding to final database dump
+0404.579 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_posts.table.tmpr9.gz (15/12/fopen): adding to final database dump
+0404.621 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_posts.table.gz (16/12/fopen): adding to final database dump
+0404.657 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0404.698 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0404.734 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_term_taxonomy.table.tmpr3.gz (19/12/fopen): adding to final database dump
+0404.790 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0404.811 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0404.843 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_termmeta.table.gz (22/12/fopen): adding to final database dump
+0404.876 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_terms.table.tmpr3.gz (23/12/fopen): adding to final database dump
+0404.918 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db-table-pls_terms.table.gz (24/12/fopen): adding to final database dump
+0405.066 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db.gz: finished writing out complete database file (264.9 KB)
+0405.610 (0) Total database tables backed up: 12 (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db.gz, size: 271405, sha1: a43f28f3565a98f5975a4d3dbb36c8ed887fe0ac, sha256: b9d218c0eb4add1a7a0e2628c445f3a4e7e4bfd7027462ce4a540d575f3bded7)
+0405.745 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip: plugins: This file has already been successfully uploaded
+0405.776 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip: themes: This file has already been successfully uploaded
+0405.819 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-uploads.zip: uploads: This file has already been successfully uploaded
+0405.844 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0405.884 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip: others: This file has already been successfully uploaded
+0405.921 (0) backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db.gz: db: This file has not yet been successfully uploaded: will queue
+0405.962 (0) Saving backup history. Total backup size: 169.1 MB
+0406.032 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0406.127 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0406.155 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-78d2b7626c26fcadb8a98e09edb73784)
+0406.796 (0) Google Drive: quota usage: used=198.5 MB, total=15360 MB, available=15161.5 MB
+0406.922 (0) Google Drive: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db.gz: Attempting to upload to Google Drive (into folder id: 11hK1i_n7PEJ8TQCwFK4PSuWYlE2Z5oIB)
+0410.151 (0) The time we have been running (410) is approaching the resumption interval (434) - increasing resumption interval to 441
+0410.242 (0) Googledrive chunked upload: 100 % uploaded
+0410.352 (0) Google Drive: OK: Archive backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db.gz uploaded in 3.27 seconds
+0410.404 (0) Recording as successfully uploaded: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db.gz
+0410.487 (0) Deleting local file: backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-db.gz: OK
+0410.572 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0410.608 (0) Number of backup sets in history: 2; groups (db): 1
+0410.635 (0) Examining (for databases) backup set with group_id=0, nonce=b42fb8d57954, datestamp=1777976886 (May 05 2026 10:28:06)
+0410.672 (0) This backup set is the backup set just made, so will not be deleted.
+0410.672 (0) Examining (for databases) backup set with group_id=0, nonce=077ab4773934, datestamp=1777751942 (May 02 2026 19:59:02)
+0410.672 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0410.712 (0) Number of backup sets in history: 2; groups (files): 1
+0410.738 (0) Examining (for files) backup set with nonce=b42fb8d57954, datestamp=1777976886 (May 05 2026 10:28:06)
+0410.738 (0) This backup set is the backup set just made, so will not be deleted.
+0410.777 (0) This backup set is the backup set just made, so will not be deleted.
+0410.822 (0) This backup set is the backup set just made, so will not be deleted.
+0410.822 (0) This backup set is the backup set just made, so will not be deleted.
+0410.822 (0) This backup set is the backup set just made, so will not be deleted.
+0410.823 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0410.848 (0) Examining (for files) backup set with nonce=077ab4773934, datestamp=1777751942 (May 02 2026 19:59:02)
+0410.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0410.849 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0410.910 (0) Resume backup (b42fb8d57954, 0): finish run
+0411.254 (0) Decremented the semaphore (fd) by 1
+0411.331 (0) Semaphore (fd) unlocked
+0411.371 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0411.482 (0) The backup succeeded and is now complete
+0411.499 (0) Deleting zip manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-plugins.zip.list.tmp)
+0411.527 (0) Deleting zip manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-themes.zip.list.tmp)
+0411.554 (0) Deleting zip manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-uploads.zip.list.tmp)
+0411.592 (0) Deleting zip manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-mu-plugins.zip.list.tmp)
+0411.619 (0) Deleting zip manifest (backup_2026-05-05-0728_pulso_comercial_b42fb8d57954-others.zip.list.tmp)
+0411.658 (0) No email will/can be sent - the user has not configured an email address.
+0411.684 (0) O backup foi bem-sucedido e agora está concluído
