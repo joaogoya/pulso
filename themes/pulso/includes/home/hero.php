@@ -12,7 +12,7 @@
         <div class="row align-items-center">
             <div class="col-lg-8 py-5">
                 <h1 class="hero-title text-uppercase mb-3">
-                    Segurança para sua <span class="text-red">Família</span><br>
+                    Segurança para sua <span class="text-red">Famíliaaaaa</span><br>
                     e valor para o seu <span class="text-red">Patrimônio</span>
                 </h1>
 
